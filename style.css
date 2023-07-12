@@ -6,6 +6,7 @@ body
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	background: linear-gradient(#ABF76F, #F3f76f, #71b7e6);
 }
 .container{
 	width: 600px;
