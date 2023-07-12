@@ -1,0 +1,17 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background: linear-gradient(#fff202, #71b7e6, #9b59b6);
+}
+.container{
+	width: 600px;
+	padding: 0px;
+	margin: 8% auto 0;
+	text-align: center;
+	background: linear-gradient(#fff202, #71b7e6, #9b59b6);
+}
