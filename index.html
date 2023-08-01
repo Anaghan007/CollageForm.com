@@ -75,7 +75,7 @@
        <textarea type="Address" placeholder="Address" rows="5" cols="20" name="Address">
        </textarea>
           </td>
-       </tr>
+       </tr><br><br>
 	   	<tr>
 			<td>
 			<iconify-icon icon="mdi:password"></iconify-icon>	Password :- 
@@ -200,7 +200,7 @@
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thank You ☺️. <br> Your Form Has Been Submitted 👍..! <br> We Will Contact You Soon...🤗"))
+                .then(response => alert("Thank You ☺️. Your Form Has Been Submitted 👍..! We Will Contact You Soon...🤗"))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
