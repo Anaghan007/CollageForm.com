@@ -69,7 +69,7 @@
 	   	</tr>
        <tr>
           <td>
-	    <label><iconify-icon icon="mdi:address-marker"></iconify-icon> Address :- </label><br><br>
+	    <label><iconify-icon icon="mdi:address-marker"></iconify-icon> Address :- </label>
           </td>
           <td>
        <textarea type="Address" placeholder="Address" rows="5" cols="20" name="Address">
@@ -86,7 +86,7 @@
 	   	</tr>
 	   	<tr>
 			<td>
-			<iconify-icon icon="icons8:gender"></iconify-icon>	Gender: 
+			<iconify-icon icon="icons8:gender"></iconify-icon>	Gender:- 
 			</td>
 			<td>
 			   <select name="Gender">
@@ -98,7 +98,7 @@
 	   	</tr>
 	   	<tr>
 			<td>
-			<iconify-icon icon="uim:calender"></iconify-icon>	Date Of Birth:
+			<iconify-icon icon="uim:calender"></iconify-icon>	Date Of Birth:-
 			</td>
 			<td>
 			   <input type="date" size="50px" name="Date Of Birth"><br><br>
@@ -106,7 +106,7 @@
 	   	</tr>
 	   	<tr>
 			<td>
-			<iconify-icon icon="fontisto:blood-drop"></iconify-icon>	Blood Group:
+			<iconify-icon icon="fontisto:blood-drop"></iconify-icon>	Blood Group:-
 			</td>
 			<td>
 			   <select name="Blood Group">
@@ -152,7 +152,7 @@
 	   	</tr>
 	   	<tr>
 			<td>
-			<iconify-icon icon="ion:home"></iconify-icon> Department: 
+			<iconify-icon icon="ion:home"></iconify-icon> Department:- 
 			</td>
 			<td>
 	   			<select name="Department">
@@ -167,7 +167,7 @@
 	   	</tr>
 	   	<tr>
 			<td>
-			<iconify-icon icon="ph:book-fill"></iconify-icon> Launguage:  
+			<iconify-icon icon="ph:book-fill"></iconify-icon> Launguage:-  
 			</td>
 			<td>
 			     <select name="Launguage"> 
@@ -200,7 +200,7 @@
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thank You ☺️. Your Form Has Been Submitted 👍..! We Will Contact You Soon...🤗"))
+                .then(response => alert("Thank You ☺️. <br> Your Form Has Been Submitted 👍..! <br> We Will Contact You Soon...🤗"))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
