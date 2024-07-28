@@ -38,7 +38,7 @@ body
 		   <iconify-icon icon="teenyicons:user-solid"></iconify-icon> Student's Addimison From
 		</h2>
 	</label>
-	<form method="POST" name="google-sheet">
+	<form https://formsubmit.co/el/tovili>
 		<table>
 		<tr>
 			<td>
@@ -213,18 +213,5 @@ body
 	</form>
 	</fieldset>
 	</center>
-
-	<script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbxO6mppDpNENQOxLyOwc5flxr5Wywvwz2iDZ--b8AaJ6PEhuUc80qI9MA8J2qS181gZ/exec'
-            const form = document.forms['google-sheet']
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thank You ☺️. Your Form Has Been Submitted 👍..! We Will Contact You Soon...🤗"))
-                .catch(error => console.error('Error!', error.message))
-            })
-          </script>
-
 </body>
 </html>
